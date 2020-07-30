@@ -1,3 +1,5 @@
+(prelude--this code as it stands from CallHub.io doesn't work. Not tryna step on their toes by modifying this, but I want this extension working.)
+
 CallHub Phonebanking Extension for CiviCRM
 ==========================================
 
