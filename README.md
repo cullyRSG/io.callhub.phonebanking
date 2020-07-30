@@ -15,7 +15,7 @@ Installation
     c. Generate an API key. There is an extension for this, otherwise it can be done with the API Explorer.
     d. Ensure that the user has permissions for "Administer CiviCRM" and "Access AJAX API". 
 5. Download this extension (unzipped) to the extensions directory.
-    a. If shell is open to your Extensions Director, execute *git clone https://github.com/cullyRSG/io.callhub.phonebanking.git*
+    a. If shell is open to your Extensions Director, execute *git clone https://<INSERT_GIT_URL>.git*
 6. Navigate to Administer >> System Settings >> Manage Extensions and beside CallHub Phone Banking, click Install.
 7. On the [integrations page](https://app.callhub.io/dashboard/apps/) in your CallHub account, click on “Connect to your CiviCRM site”. There are 3 things you need to connect:
 
