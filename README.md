@@ -17,7 +17,7 @@ Installation
     
     b. Name the contact something like "Callhub.io API"
     
-    c. Generate an API key. There is an extension for this, otherwise it can be done with the API Explorer.
+    c. Generate an API key. There is an extension for this, otherwise it can be done with the API Explorer by running a "Contact::update" where id = <ID of the user you just made> and value=(api_key=<some 16 character alphanumeric string>)
     
     d. Ensure that the user has permissions for "Administer CiviCRM" and "Access AJAX API". 
     
