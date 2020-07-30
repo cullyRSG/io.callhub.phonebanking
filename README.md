@@ -11,13 +11,20 @@ Installation
 1. Create a CallHub account [here](https://app.callhub.io/accounts/register/)
 2. CiviCRM should have set a CiviCRM Extensions Directory at Administer >> System Settings >> Directories.  This is likely "\[civicrm.files\]/ext/". 
 3. CiviCRM  should have set an Extension Resource URL at Administer >> System Settings >> Resource URLs. This is very likely identical to your Extensions Directory.
-4. Create a contact in CiviCRM that will be used to synchronize information.
+4. Create a contact in CiviCRM that will be used to synchronize information. [See a full tutorial here.](https://civicrm.stackexchange.com/questions/9945/how-do-i-set-up-an-api-key-for-a-user/9946#9946)
+
     a. Create a new contact by going to Contacts >> New Individual. 
+    
     b. Name the contact something like "Callhub.io API"
+    
     c. Generate an API key. There is an extension for this, otherwise it can be done with the API Explorer.
+    
     d. Ensure that the user has permissions for "Administer CiviCRM" and "Access AJAX API". 
+    
 5. Download this extension (unzipped) to the extensions directory.
+
     a. If shell is open to your Extensions Director, execute *git clone https://<INSERT_GIT_URL>.git*
+    
 6. Navigate to Administer >> System Settings >> Manage Extensions and beside CallHub Phone Banking, click Install.
 7. On the [integrations page](https://app.callhub.io/dashboard/apps/) in your CallHub account, click on “Connect to your CiviCRM site”. There are 3 things you need to connect:
 
